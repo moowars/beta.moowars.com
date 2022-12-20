@@ -1,0 +1,18 @@
+/* Font imports */
+@import url("https://use.typekit.net/xkj7kbz.css");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Exa:wght@400;500;600&display=swap");
+@import url("/fonts/cenotaph/stylesheet.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
