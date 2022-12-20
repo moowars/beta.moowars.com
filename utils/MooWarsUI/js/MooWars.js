@@ -1,5 +1,5 @@
 import { EventEmitter } from './EventEmitter.js';
-import { MooNFT } from './MooNFT.js';
+import { MooNFT } from './MooNft.js';
 import { PackNFT } from './PackNFT.js';
 import { NftCollection } from './NftCollection.js';
 // import { ArenaCollection } from './ArenaCollection.js';
